@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(141, 82, 82);
+}
+.spanBlue {
+  color: blue;
+}
+.fileUploader {
+  display: none;
+}
+
+.buttonContainer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorizeButton {
+  padding: 12px 25px;
+  border-radius: 8px;
+  background-color: indigo;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+}
+
+.uploaderSection {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 25vh;
+  margin-bottom: 0;
+}
+
+.uploaderContainer {
+  width: 9vw;
+  height: 25vh;
+}
+
+.imageContainer {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.uploadedImage,
+.colorizedImage {
+  border-radius: 12px;
+  width: 280px;
+  height: 150px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.imageContent {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
